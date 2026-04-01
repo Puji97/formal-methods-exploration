@@ -1,0 +1,10 @@
+name = "TrafficLight"
+version = "0.1.0"
+defaultTargets = ["trafficlight"]
+
+[[lean_lib]]
+name = "TrafficLight"
+
+[[lean_exe]]
+name = "trafficlight"
+root = "Main"
